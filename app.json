@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "ChekoApp",
-    "slug": "ChekoApp",
+    "name": "foodApp",
+    "description":"Deliver Food App",
+    "slug": "foodApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,10 +21,7 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.yourdomain.foodApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
